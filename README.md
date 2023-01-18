@@ -15,9 +15,16 @@ Repositório para armazenar os artefatos do Pipeline utilizando Modern Data Stac
     - cd airbyte
     - docker-compose-up
 
-- Subir o Airflow via docker 
+- Subir o Airflow via docker
+    - curl -LfO 'https://airflow.apache.org/docs/apache-airflow/2.5.0/docker-compose.yaml'
+    - mkdir -p ./dags ./logs ./plugins
+    - echo -e "AIRFLOW_UID=$(id -u)" > .env
+    - docker compose up airflow-init
+    - docker compose up
 
 - Subir o Metabase via docker 
+    - Criar docker-compose.yaml
+    - executar o docker compose up
 
 - Criar o script de execução 
 
