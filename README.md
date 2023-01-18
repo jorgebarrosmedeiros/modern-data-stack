@@ -5,19 +5,23 @@ Repositório para armazenar os artefatos do Pipeline utilizando Modern Data Stac
 
 ## Infraestrutura:
 
-- Setup do ambiente de desenvolvimento (Hardware, Software - Linux, Python, Docker, Curl, Pip, Git, Npm, etc...) X
+- Setup do ambiente de desenvolvimento (Hardware, Software - Linux, Python, Docker, Curl, Pip, Git, Npm, etc...) - Construído com o Gitpod
 
-- Setar as Permissoes do Gitpod ao Repositorio no Github X
+- Setar as Permissoes do Gitpod ao Repositorio no Github - Ok
 
-- Subir o Airbyte via docker X
+- Subir o Airbyte via docker 
+    - Fork no projeto do Airbyte -- https://github.com/jorgebarrosmedeiros/airbyte.git
+    - Clonar o repositório - git clone -b modern-data-stack https://github.com/jorgebarrosmedeiros/airbyte.git
+    - cd airbyte
+    - docker-compose-up
 
-- Subir o Airflow via docker X
+- Subir o Airflow via docker 
 
-- Subir o Metabase via docker X
+- Subir o Metabase via docker 
 
-- Criar o script de execução ?
+- Criar o script de execução 
 
-- Testar a Execução ?
+- Testar a Execução 
 
 - Snowflake Data Warehouse:
     
