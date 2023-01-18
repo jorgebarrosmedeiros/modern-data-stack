@@ -26,15 +26,15 @@ Repositório para armazenar os artefatos do Pipeline utilizando Modern Data Stac
     - Criar docker-compose.yaml
     - executar o docker compose up
 
+- Snowflake Data Warehouse:
+    
+    - Criar a Conta no SnowFlake 
+    - Verificar a existência das tabelas 
+    - Obter os links de conexão e nome da conta 
+
 - Criar o script de execução 
 
 - Testar a Execução 
-
-- Snowflake Data Warehouse:
-    
-    - Criar a Conta no SnowFlake X
-    - Verificar a existência das tabelas X
-    - Obter os links de conexão e nome da conta X
 
 
 ## Extração:
