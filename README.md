@@ -41,36 +41,36 @@ Repositório para armazenar os artefatos do Pipeline utilizando Modern Data Stac
 
 - No Airbyte:
 
-    - Conectar com as origens baseadas nos Csvs X
-    - Criar as entidades no snowflake através do script base da documentação    X
-    - Conectar o destino no snowflake X
-    - Criar as conexões do airbyte associando as origens ao destino X
-    - Testar as conexões X
+    - Conectar com as origens baseadas nos Csvs 
+    - Criar as entidades no snowflake através do script base da documentação    
+    - Conectar o destino no snowflake 
+    - Criar as conexões do airbyte associando as origens ao destino 
+    - Testar as conexões 
 
 
 ## Preparação:
 
 - No Airbyte (Destination Loading Method):
 
-    - Local Staging (Ambiente de Desenvolvimento) X
-    - Cloud Staging (Ambiente de Produção) X
+    - Local Staging (Ambiente de Desenvolvimento) 
+    - Cloud Staging (Ambiente de Produção) 
 
 
 ## Transformação:
 
 - No Dbt:
 
-    - Criação da Conta  X
-    - Conexão com o Github  X
-    - Criação do Dbt Project  X
-    - Criação do Profile de conexão com o snowflake X
-    - Criação do Schema X
-    - Criação dos Modelos Base X
-    - Criação do Modelo Relacionado X
-    - Visualização gráfica do modelo X 
-    - Teste de execução X
-    - Commits, Branches, Pull Requests, Merges no Github  X
-    - Obtenção do link de conexão com o Airbyte  X
+    - Criação da Conta  
+    - Conexão com o Github  
+    - Criação do Dbt Project  
+    - Criação do Profile de conexão com o snowflake 
+    - Criação do Schema 
+    - Criação dos Modelos Base 
+    - Criação do Modelo Relacionado 
+    - Visualização gráfica do modelo 
+    - Teste de execução 
+    - Commits, Branches, Pull Requests, Merges no Github  
+    - Obtenção do link de conexão com o Airbyte  
 
 
 ## Visualização:
@@ -89,17 +89,11 @@ Repositório para armazenar os artefatos do Pipeline utilizando Modern Data Stac
 - No Airflow:
 
     - Criar a dag  
-
     - Criar a Docker network
-
     - Incluir nos composes a network criada
-
     - Setup Up no serviço
-
     - Testar a conexao entre os containers do airflow e do airbyte
-
     - Criar as conexões com o Airbyte através do script  
-
     - Testar a execução do pipeline  
 
 
@@ -108,7 +102,5 @@ Repositório para armazenar os artefatos do Pipeline utilizando Modern Data Stac
 - Material de Apoio:
 
     - Links 
-
     - Códigos fonte
-
     - Apresentação
